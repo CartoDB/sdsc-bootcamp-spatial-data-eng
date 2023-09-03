@@ -1,0 +1,39 @@
+version: 1
+
+sources:
+  - name: sdsc_bootcamp_data
+    description: "SDSC raw data (loaded from raw files)"
+    schema: sdsc_bootcamp_data
+    database: carto-ps-bq-developers
+    tables:
+      - name: raw_public_transportation
+        identifier: osm_public_transport_usa
+        description: "OpenStreetMap public transportation stops US"
+        columns:
+          - name: geoid
+            description: "GEOID"
+            data_type: VARCHAR
+          - name: geom_wkt
+            description: "GEOM_WKT"
+            data_type: VARCHAR
+          - name: do_date
+            description: "DO_DATE"
+            data_type: VARCHAR
+          - name: version
+            description: "VERSION"
+            data_type: VARCHAR
+          - name: amenity
+            description: "AMENITY"
+            data_type: VARCHAR
+          - name: public_transport
+            description: "PUBLIC_TRANSPORT"
+            data_type: VARCHAR
+          - name: tags_key
+            description: "TAGS_KEY"
+            data_type: VARCHAR
+          - name: tags_value
+            description: "TAGS_VALUE"
+            data_type: VARCHAR
+          - name: country_iso2
+            description: "COUNTRY_ISO2"
+            data_type: VARCHAR

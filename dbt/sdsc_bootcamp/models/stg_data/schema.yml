@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: public_transport
+    identifier: public_transport
+    description: "Public Transport model"
+    columns:
+      - name: id
+        description: "original DO GEOID"
+        data_type: varchar
+      - name: geom
+        description: "geom"
+        data_type: geography
+      - name: amenity
+        description: "amenity"
+        data_type: varchar
+      - name: public_transport
+        description: "public_transport"
+        data_type: varchar
+      - name: tags_key
+        description: "tags_key"
+        data_type: varchar
+      - name: tags_value
+        description: "tags_value"
+        data_type: varchar
+      - name: country
+        description: "country"
+        data_type: varchar
+  - name: public_transport_h3
+    identifier: public_transport_3
+    description: "Public Transport H3 index model"
+    columns:
+      - name: h3
+        description: "h3 index"
+        data_type: string
+      - name: n_stops
+        description: "number of stops by index"
+        data_type: int64
