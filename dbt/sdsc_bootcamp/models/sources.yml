@@ -12,28 +12,31 @@ sources:
         columns:
           - name: geoid
             description: "GEOID"
-            data_type: VARCHAR
-          - name: geom_wkt
-            description: "GEOM_WKT"
-            data_type: VARCHAR
+            data_type: string
+          - name: latitude
+            description: "latitude"
+            data_type: float64
+          - name: longitude
+            description: "latitude"
+            data_type: float64
           - name: do_date
             description: "DO_DATE"
-            data_type: VARCHAR
+            data_type: string
           - name: version
             description: "VERSION"
-            data_type: VARCHAR
+            data_type: string
           - name: amenity
             description: "AMENITY"
-            data_type: VARCHAR
+            data_type: string
           - name: public_transport
             description: "PUBLIC_TRANSPORT"
-            data_type: VARCHAR
+            data_type: string
           - name: tags_key
             description: "TAGS_KEY"
-            data_type: VARCHAR
+            data_type: string
           - name: tags_value
             description: "TAGS_VALUE"
-            data_type: VARCHAR
+            data_type: string
           - name: country_iso2
             description: "COUNTRY_ISO2"
-            data_type: VARCHAR
+            data_type: string
