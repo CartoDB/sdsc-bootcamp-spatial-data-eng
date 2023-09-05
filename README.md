@@ -2,6 +2,12 @@
 
 This repository contains the code used in the workshop "An introduction to Spatial Data Engineering" at SDSC Bootcamp, Madrid 2023.
 
+# How to use this repository
+
+There are two folders:
+- dbt: Contains the dbt project.
+- scripts: Contains SQL scripts used to handle data in BigQuery.
+
 ## Requirements
 
 - Dbt [installed](https://docs.getdbt.com/docs/core/pip-install) (with dbt-bigquery*) and [configured](https://docs.getdbt.com/docs/core/connect-data-platform/bigquery-setup).
