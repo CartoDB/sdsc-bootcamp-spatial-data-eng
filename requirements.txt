@@ -1,0 +1,2 @@
+dbt-bigquery>=1.6,<2.0
+dbt-core>=1.6,<2.0
