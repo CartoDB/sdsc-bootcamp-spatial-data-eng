@@ -5,8 +5,9 @@
 DROP TABLE IF EXISTS `carto-ps-bq-developers.cayetanobv.osm_public_transport_usa_for_export`;
 CREATE TABLE `carto-ps-bq-developers.cayetanobv.osm_public_transport_usa_for_export`
 As
-SELECT g.geoid, ST_AsText(g.geom) geom_wkt, cast(p.do_date as string) do_date, p.version,
-    p.amenity, p.public_transport, tags.key tags_key, tags.value tags_value,
+SELECT g.geoid, ST_X(g.geom) longitude, ST_Y(g.geom) latitude,
+    cast(p.do_date as string) do_date, p.version, p.amenity,
+    p.public_transport, tags.key tags_key, tags.value tags_value,
     'US' as country_iso2
 FROM `carto-do-public-data.openstreetmap.pointsofinterest_nodes_usa_latlon_v1_quarterly_v1` p,
 UNNEST(all_tags) tags
