@@ -2,6 +2,8 @@
 -- This Big Query script creates a table with all the public transport nodes in the USA
 -- and exports it to a CSV file in a GCS bucket.
 
+BEGIN
+
 DROP TABLE IF EXISTS `my-project.my-dataset.osm_public_transport_usa_for_export`;
 CREATE TABLE `my-project.my-dataset.osm_public_transport_usa_for_export`
 As
@@ -30,3 +32,5 @@ AS (
 );
 
 DROP TABLE IF EXISTS `my-project.my-dataset.osm_public_transport_usa_for_export`;
+
+END;
