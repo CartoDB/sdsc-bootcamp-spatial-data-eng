@@ -1,6 +1,8 @@
 # sdsc-bootcamp-spatial-data-eng
 
-This repository contains the code used in the workshop "An introduction to Spatial Data Engineering" at SDSC Bootcamp, Madrid 2023.
+This repository contains the code used in workshop "An introduction to Spatial Data Engineering", in Spatial Data Science (SDS) Bootcamps:
+- [SDS Bootcamp in Madrid, 2023](https://spatial-data-science-conference.com/bootcamps/2023/madrid).
+- [SDS Bootcamp in Paris, 2023](https://spatial-data-science-conference.com/bootcamps/2023/paris).
 
 # How to use this repository
 
