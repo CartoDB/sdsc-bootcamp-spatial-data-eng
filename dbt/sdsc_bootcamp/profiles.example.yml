@@ -1,0 +1,9 @@
+cayetano-bq:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: my-bq-project
+      dataset: mydataset
+      threads: 4
