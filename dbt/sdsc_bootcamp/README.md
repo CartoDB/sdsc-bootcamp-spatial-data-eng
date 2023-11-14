@@ -15,8 +15,10 @@ Try running the following commands:
 
 ## SDS Bootcamp tutorial
 
-Follow the guide in the [tutorial](https://docs.google.com/presentation/d/1R6NcYl9e1YlmTLG2EpvoyWAL4ciSun_ja47X2yfFIMw/edit#slide=id.g27b148adfed_0_0) to complete the exercises.
-
+Follow the guide in the tutorials to complete the exercises:
+- [SDS Bootcamp Paris 2023 Dbt tutorial](https://docs.google.com/presentation/d/1R6NcYl9e1YlmTLG2EpvoyWAL4ciSun_ja47X2yfFIMw/edit#slide=id.g27b148adfed_0_0)
+- [SDS Bootcamp London 2023 Dbt tutorial](https://docs.google.com/presentation/d/1hYlfRrgZqeYUM8kemfC8uQTluQRMdbLaiXOkrb-wsOQ/edit#slide=id.g27b148adfed_0_0)
+- [SDS Bootcamp Madrid 2023 Dbt tutorial](https://docs.google.com/presentation/d/1Tv686VNcTQJIzqBt29nEz8n6Oc01Z9Zzdwv8CoMFNpM/edit#slide=id.g27b148adfed_0_0)
 
 ## Dbt resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
